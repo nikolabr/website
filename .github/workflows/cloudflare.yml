@@ -19,7 +19,7 @@ jobs:
           extended: true
           
       - name: Build site
-        run: hugo --minify --gc
+        run: hugo --gc
 
       - name: Publish to Cloudflare workers
         uses: cloudflare/wrangler-action@v3
