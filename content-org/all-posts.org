@@ -4,6 +4,13 @@
 :PROPERTIES:
 :EXPORT_FILE_NAME: my-first-post
 :END:
+
 This is my post body
+
+#+begin_src c
+  int main() {
+    return 0;
+  }
+#+end_src
 
 
